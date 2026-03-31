@@ -1,2 +1,2 @@
 # luciagonzalezrodriguez.github.io
-Hooooola!
+Hooooola! Esta es mi página principal donde encontraréis mis proyectos y  mi contacto :)
