@@ -57,6 +57,8 @@ main> .title{
     border: 2px solid var(--secondary-color);
     border-radius: 40px;
 
+    transition: background-color 500ms ease-out, color 500ms ease-out, box-shadow 500ms ease-out;
+
 }
 
 
@@ -64,14 +66,6 @@ main> .title{
     background-color:var(--secondary-color);
     color:rgb(253, 242, 232,  0.822);
     box-shadow: 0px 3px 10px 6px var(--light-color);
-}
-
-.link-btn.contact:active .original-text{
-    display:none;
-}
-
-.link-btn.contact:active::after{
-    content: "Mail copiado";
 }
 
 article{
