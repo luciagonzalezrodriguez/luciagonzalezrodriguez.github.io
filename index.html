@@ -11,8 +11,8 @@
         <div class="title">¡Hola, soy Lucía González!</div> 
         <div class="links">
             <button type="button" class="link-btn" onclick="window.location.href='proyectos.html'">Proyectos</button>
-            <button type="button" class="link-btn contact" onclick="navigator.clipboard.writeText('luciagonzalezrg@gmail.com')">
-                <span class="original-text">Contacto</span>
+            <button type="button" class="link-btn contact" onclick="navigator.clipboard.writeText('luciagonzalezrg@gmail.com');this.textContent='Mail copiado'; setTimeout(()=>this.textContent='Contacto',1500)">
+                Contacto
             </button>
         </div>
     
